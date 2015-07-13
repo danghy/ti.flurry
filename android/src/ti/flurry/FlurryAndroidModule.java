@@ -96,7 +96,8 @@ public class FlurryAndroidModule extends KrollModule
 	public void initialize(String key)
 	{
 		Log.d(TAG, "initialize called");
-		FlurryAgent.onStartSession(this.getActivity(), key);
+		FlurryAgent.init(this.getActivity(), key);
+		FlurryAgent.onStartSession(this.getActivity());
 	}
 	
 	@Kroll.method
@@ -247,8 +248,9 @@ public class FlurryAndroidModule extends KrollModule
 	
 	@Kroll.setProperty
 	public void setSecureTransportEnabled(Boolean value) {
-		Log.d(TAG, "set Flurry SecureTransportEnabled: " + value);
-		FlurryAgent.setUseHttps(value);
+		// https://developer.yahoo.com/flurry/docs/analytics/gettingstarted/android_sdk_upgrade_5/
+		// Log.d(TAG, "set Flurry SecureTransportEnabled: " + value);
+		// FlurryAgent.setUseHttps(value);
 	}
 	
 	@Kroll.setProperty

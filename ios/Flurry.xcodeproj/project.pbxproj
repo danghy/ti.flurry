@@ -22,7 +22,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		014B40841A0AE93D00F8F577 /* libFlurry_6.4.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 014B40831A0AE93D00F8F577 /* libFlurry_6.4.0.a */; };
+		014B40841A0AE93D00F8F577 /* libFlurry_7.2.1.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 014B40831A0AE93D00F8F577 /* libFlurry_7.2.1.a */; };
 		040C304A1B05E36F000BE47F /* Flurry.h in Headers */ = {isa = PBXBuildFile; fileRef = 040C30471B05E36F000BE47F /* Flurry.h */; };
 		040C304B1B05E36F000BE47F /* FlurryWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 040C30481B05E36F000BE47F /* FlurryWatch.h */; };
 		24DD6CF91134B3F500162E58 /* TiFlurryModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* TiFlurryModule.h */; };
@@ -44,10 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		014B40831A0AE93D00F8F577 /* libFlurry_6.4.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurry_6.4.0.a; path = lib/libFlurry_6.4.0.a; sourceTree = "<group>"; };
+		014B40831A0AE93D00F8F577 /* libFlurry_7.2.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurry_7.2.1.a; path = lib/libFlurry_7.2.1.a; sourceTree = "<group>"; };
 		040C30471B05E36F000BE47F /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
 		040C30481B05E36F000BE47F /* FlurryWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryWatch.h; sourceTree = "<group>"; };
-		040C30491B05E36F000BE47F /* libFlurry_6.4.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_6.4.0.a; sourceTree = "<group>"; };
+		040C30491B05E36F000BE47F /* libFlurry_7.2.1.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry_7.2.1.a; sourceTree = "<group>"; };
 		24DD6CF71134B3F500162E58 /* TiFlurryModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TiFlurryModule.h; path = Classes/TiFlurryModule.h; sourceTree = "<group>"; };
 		24DD6CF81134B3F500162E58 /* TiFlurryModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TiFlurryModule.m; path = Classes/TiFlurryModule.m; sourceTree = "<group>"; };
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
@@ -63,7 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				014B40841A0AE93D00F8F577 /* libFlurry_6.4.0.a in Frameworks */,
+				014B40841A0AE93D00F8F577 /* libFlurry_7.2.1.a in Frameworks */,
 				7BC170CA131C2BF5005E4CE2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -76,7 +76,7 @@
 			children = (
 				040C30471B05E36F000BE47F /* Flurry.h */,
 				040C30481B05E36F000BE47F /* FlurryWatch.h */,
-				040C30491B05E36F000BE47F /* libFlurry_6.4.0.a */,
+				040C30491B05E36F000BE47F /* libFlurry_7.2.1.a */,
 			);
 			path = lib;
 			sourceTree = "<group>";
@@ -104,7 +104,7 @@
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				014B40831A0AE93D00F8F577 /* libFlurry_6.4.0.a */,
+				014B40831A0AE93D00F8F577 /* libFlurry_7.2.1.a */,
 				7BC170C9131C2BF5005E4CE2 /* Foundation.framework */,
 			);
 			name = Frameworks;

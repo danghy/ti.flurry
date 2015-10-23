@@ -2,7 +2,7 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 1.6.2
+version: 1.6.3
 apiversion: 7.2.1
 architectures: armv7 arm64 i386 x86_64
 description: Flurry event reporting module

@@ -40,6 +40,11 @@
 
 # pragma mark Public Properties
 
+-(void)setAppVersion:(id)value
+{
+    [Flurry setAppVersion:value];
+}
+
 -(void)setUserID:(id)value
 {
     [Flurry setUserID:value];

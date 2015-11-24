@@ -182,15 +182,24 @@
     
 -(void)logError:(id)args
 {
-    ENSURE_ARG_COUNT(args, 2);
-    NSString *errorName = [args objectAtIndex:0];
-    NSString *errorMessage = [args objectAtIndex:1];
+    ENSURE_UI_THREAD(logError, args);
+
+	id args0 = [args objectAtIndex:0];
+	ENSURE_SINGLE_ARG(args0, NSString);
+	NSString *errorName = args0;
+
+	id args1 = [args count] > 1 ? [args objectAtIndex:1] : nil;
+	ENSURE_SINGLE_ARG_OR_NIL(args1, NSString);
+	NSString *errorMessage = [args objectAtIndex:1];
+
+    id args2 = [args count] > 2 ? [args objectAtIndex:2] : nil;
+    ENSURE_SINGLE_ARG_OR_NIL(args2, NSDictionary);
+    NSDictionary *errorInfo = args2;	
     
     NSException *exception = [NSException
                               exceptionWithName:errorName
                               reason:errorMessage
-                              userInfo:nil];
-    
+                              userInfo:errorInfo];    
     
    [Flurry logError:errorName message:errorMessage exception:exception];
 }
